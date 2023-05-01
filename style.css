@@ -1,0 +1,227 @@
+/* PAGE CSS */
+html {
+  background-image: url(img/bg13.png);
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+/* LINKS ON TOP CSS */
+.nav {
+  margin: 0px 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.nav_sel {
+  margin: 0px 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: larger;
+}
+
+/* HOME PAGE CSS */
+h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+.titleMain {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(3, 59, 2);
+  position: relative;
+  margin-top: 115px;
+}
+
+.quote {
+  color: rgb(3, 59, 2);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.RF {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(3, 59, 2);
+}
+
+/* ABOUT PAGE CSS */
+.abt {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  width: 900px;
+  margin: 20px auto;
+  padding: 55px 150px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-align-last: center;
+}
+h1 {
+  font-size: 60px;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.forehand {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(12, 189, 12);
+  color: white;
+  border-radius: 30px;
+}
+
+.backhand {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(8, 156, 197);
+  color: white;
+  border-radius: 30px;
+}
+
+.serve {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(222, 216, 49);
+  color: white;
+  border-radius: 30px;
+}
+.volley {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(172, 7, 7);
+  color: white;
+  border-radius: 30px;
+}
+
+.lob {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(33, 6, 129);
+  color: white;
+  border-radius: 30px;
+}
+
+.dropshot {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 30px;
+}
+
+.abt img {
+  height: 500px;
+  width: 600px;
+}
+
+/* QUIZ PAGE CSS */
+.quizpage {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  width: 900px;
+  margin: 20px auto;
+  padding: 55px 150px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-align-last: center;
+}
+
+input {
+  font-size: 16px;
+  border: 2px solid;
+}
+
+.feedbackRight {
+  color: green;
+}
+
+.feedbackWrong {
+  color: orangered;
+}
+
+.inputRight {
+  font-size: 16px;
+  border: 2px solid green;
+}
+
+.inputWrong {
+  font-size: 16px;
+  border: 2px solid orangered;
+}
+
+button {
+  font-size: 25px;
+  border: 2px solid darkgreen;
+  border-radius: 12px;
+  background-color: rgb(158, 224, 59);
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  border: 3px solid darkgreen;
+}
+
+.results {
+  background-color: rgb(16, 110, 16);
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.totalMarks {
+  font-size: 30px;
+  color: gold;
+}
+
+.score {
+  font-size: 25px;
+  color: aliceblue;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.response {
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.img_quiz {
+  width: 300px;
+  height: 300px;
+}

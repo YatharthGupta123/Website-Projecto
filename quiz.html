@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Page</title>
+    <link rel="icon" type="image/png" href="img/tennis-ball.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <p>
+      <a class="nav" href="index.html">Home</a>
+      <a class="nav" href="about.html">About</a>
+      <a class="nav_sel" href="quiz.html">Quiz</a>
+    </p>
+
+    <!-- PAGE TITLE & CONTENT -->
+    <div class="quizpage">
+      <h1>Tennis Quiz</h1>
+      <hr />
+      <h2>Question 1</h2>
+      <p>
+        Which shot requires the players to hit behind the baseline and on one
+        side of the court into the service box diagonally?
+      </p>
+      <p>
+        Answer:&nbsp;<input id="Q1" />
+        <span id="feedback_1"></span>
+      </p>
+      <h2>Question 2</h2>
+      <p>
+        What is it called when a serve is hit that the opposing player cannot
+        hit?
+      </p>
+      <p>
+        Answer:&nbsp;<input id="Q2" />
+        <span class="feedback" id="feedback_2"></span>
+      </p>
+      <h2>Question 3</h2>
+      <p>
+        Which shot is normally produced to force the opponent back or to win a
+        point?
+      </p>
+      <img class="img_quiz" src="img/volley2.png" alt="Volley mage" />
+      <p>
+        Answer:&nbsp;<input id="Q3" />
+        <span class="feedback" id="feedback_3"></span>
+      </p>
+      <h2>Question 4</h2>
+      <p>Which shot contains the word "hand" in it?</p>
+      <p>
+        Answer:&nbsp;<input id="Q4" />
+        <span class="feedback" id="feedback_4"></span>
+      </p>
+      <p><button id="btn">Check</button></p>
+      <div class="results">
+        <h1 class="totalMarks">Total Marks:</h1>
+        <div class="score" id="score">---</div>
+        <div class="response" id="response"></div>
+      </div>
+    </div>
+  </body>
+</html>
